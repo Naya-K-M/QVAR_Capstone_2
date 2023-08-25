@@ -1,0 +1,38 @@
+F11_MAX_on_ACC_X <= 0.0962286: 12_to_18 (792.0/29.0)
+F11_MAX_on_ACC_X > 0.0962286
+|   F10_MIN_on_ACC_X <= -0.0639648: 5_to_10 (410.0)
+|   F10_MIN_on_ACC_X > -0.0639648: 23_to_35 (360.0)
+
+Number of Leaves  : 	3
+Size of the tree : 	5
+
+
+class:
+ => 12_to_18, 23_to_35, 5_to_10, 
+features:
+ => F1_MEAN_on_ACC_X, F2_VAR_on_ACC_X, F3_ENERGY_on_ACC_X, F4_ZeroCross_on_ACC_X, F5_PositiveZeroCross_on_ACC_X, F6_NegativeZeroCross_on_ACC_X, F7_PeaKDet_on_ACC_X, F8_PosPeaKDet_on_ACC_X, F9_NegPeaKDet_on_ACC_X, F10_MIN_on_ACC_X, F11_MAX_on_ACC_X, F12_RECURSIVE_FEATURE_MEAN_on_ACC_X, F13_RECURSIVE_FEATURE_VAR_on_ACC_X, F14_RECURSIVE_FEATURE_RMS_on_ACC_X, F15_RECURSIVE_FEATURE_MAX_on_ACC_X, F16_RECURSIVE_FEATURE_MIN_on_ACC_X, F17_RECURSIVE_FEATURE_PKPK_on_ACC_X, 
+
+
+Mean absolute error	0.982587
+Root mean squared error	0.982618
+ ======= Whole data training with Confidence Factor: 0.9 ========= 
+
+
+===== Confusion Matrix =====
+         	12_to_18 	23_to_35 	5_to_10  	<-- classified as
+12_to_18 	792	0	0	
+23_to_35 	0	360	0	
+5_to_10  	29	0	410	
+
+Total Number of Instances        : 1591
+Correctly Classified Instances   : 1562
+Incorrectly Classified Instances : 29
+Kappa Statistic: 0.379184
+Accuracy: 98.1772%
+
+Report  :	precision	recall	support	
+12_to_18 	1    	0.965	 792
+23_to_35 	1    	1	 360
+5_to_10  	0.934    	1	 439
+
+avg/total	0.982    	0.982	 1591

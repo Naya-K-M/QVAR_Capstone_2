@@ -1,0 +1,100 @@
+F11_MAX_on_ACC_X <= 0.127705
+|   F16_RECURSIVE_FEATURE_MIN_on_ACC_X <= -0.324894: 12_to_18 (2651.0)
+|   F16_RECURSIVE_FEATURE_MIN_on_ACC_X > -0.324894: 12_to_18 (1033.0/103.0)
+F11_MAX_on_ACC_X > 0.127705
+|   F4_PeakToPeak_on_ACC_X <= 0.112336
+|   |   F4_PeakToPeak_on_ACC_X <= 0.0960693
+|   |   |   F1_MEAN_on_ACC_X <= 0.237976: 5_to_10 (38.0)
+|   |   |   F1_MEAN_on_ACC_X > 0.237976: 23_to_35 (1342.0/233.0)
+|   |   F4_PeakToPeak_on_ACC_X > 0.0960693
+|   |   |   F11_MAX_on_ACC_X <= 0.287842
+|   |   |   |   F1_MEAN_on_ACC_X <= 0.0834351: 12_to_18 (1.0)
+|   |   |   |   F1_MEAN_on_ACC_X > 0.0834351: 5_to_10 (53.0)
+|   |   |   F11_MAX_on_ACC_X > 0.287842
+|   |   |   |   F1_MEAN_on_ACC_X <= 0.293513
+|   |   |   |   |   F5_ZeroCross_on_ACC_X <= 56
+|   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.284912
+|   |   |   |   |   |   |   F5_ZeroCross_on_ACC_X <= 0: 23_to_35 (2.0)
+|   |   |   |   |   |   |   F5_ZeroCross_on_ACC_X > 0
+|   |   |   |   |   |   |   |   F2_VAR_on_ACC_X <= 0.00146484: 23_to_35 (1.0)
+|   |   |   |   |   |   |   |   F2_VAR_on_ACC_X > 0.00146484: 5_to_10 (15.0/1.0)
+|   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.284912
+|   |   |   |   |   |   |   F5_ZeroCross_on_ACC_X <= 12: 5_to_10 (1.0)
+|   |   |   |   |   |   |   F5_ZeroCross_on_ACC_X > 12: 23_to_35 (5.0)
+|   |   |   |   |   F5_ZeroCross_on_ACC_X > 56: 23_to_35 (131.0/37.0)
+|   |   |   |   F1_MEAN_on_ACC_X > 0.293513
+|   |   |   |   |   F5_ZeroCross_on_ACC_X <= 74: 5_to_10 (101.0/19.0)
+|   |   |   |   |   F5_ZeroCross_on_ACC_X > 74
+|   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.540517
+|   |   |   |   |   |   |   F15_RECURSIVE_FEATURE_MAX_on_ACC_X <= 0.333252
+|   |   |   |   |   |   |   |   F9_PosPeaKDet_on_ACC_X <= 33: 5_to_10 (26.0)
+|   |   |   |   |   |   |   |   F9_PosPeaKDet_on_ACC_X > 33
+|   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.300293: 5_to_10 (3.0)
+|   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.300293
+|   |   |   |   |   |   |   |   |   |   F2_VAR_on_ACC_X <= 0.0010376
+|   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.321045: 5_to_10 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.321045: 23_to_35 (1.0)
+|   |   |   |   |   |   |   |   |   |   F2_VAR_on_ACC_X > 0.0010376: 23_to_35 (3.0)
+|   |   |   |   |   |   |   F15_RECURSIVE_FEATURE_MAX_on_ACC_X > 0.333252
+|   |   |   |   |   |   |   |   F4_PeakToPeak_on_ACC_X <= 0.111816: 23_to_35 (118.0/49.0)
+|   |   |   |   |   |   |   |   F4_PeakToPeak_on_ACC_X > 0.111816
+|   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.431657
+|   |   |   |   |   |   |   |   |   |   F11_MAX_on_ACC_X <= 0.431885
+|   |   |   |   |   |   |   |   |   |   |   F3_ENERGY_on_ACC_X <= 15.25
+|   |   |   |   |   |   |   |   |   |   |   |   F12_RECURSIVE_FEATURE_MEAN_on_ACC_X <= 0.234253
+|   |   |   |   |   |   |   |   |   |   |   |   |   F8_PeaKDet_on_ACC_X <= 62: 23_to_35 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   F8_PeaKDet_on_ACC_X > 62
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   F5_ZeroCross_on_ACC_X <= 108: 5_to_10 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   F5_ZeroCross_on_ACC_X > 108
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.320068: 5_to_10 (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.320068: 23_to_35 (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   F12_RECURSIVE_FEATURE_MEAN_on_ACC_X > 0.234253
+|   |   |   |   |   |   |   |   |   |   |   |   |   F13_RECURSIVE_FEATURE_VAR_on_ACC_X <= 0.0259399: 23_to_35 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   F13_RECURSIVE_FEATURE_VAR_on_ACC_X > 0.0259399
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   F15_RECURSIVE_FEATURE_MAX_on_ACC_X <= 0.351563: 23_to_35 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   F15_RECURSIVE_FEATURE_MAX_on_ACC_X > 0.351563
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.35376: 5_to_10 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.35376: 23_to_35 (11.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   F3_ENERGY_on_ACC_X > 15.25: 5_to_10 (19.0/3.0)
+|   |   |   |   |   |   |   |   |   |   F11_MAX_on_ACC_X > 0.431885: 23_to_35 (29.0/17.0)
+|   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.431657
+|   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.505371: 5_to_10 (21.0)
+|   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.505371: 23_to_35 (1.0)
+|   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.540517
+|   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.540527: 23_to_35 (1.0)
+|   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.540527: 5_to_10 (24.0)
+|   F4_PeakToPeak_on_ACC_X > 0.112336: 5_to_10 (1344.0/42.0)
+
+Number of Leaves  : 	34
+Size of the tree : 	67
+
+
+class:
+ => 12_to_18, 23_to_35, 5_to_10, 
+features:
+ => F1_MEAN_on_ACC_X, F2_VAR_on_ACC_X, F3_ENERGY_on_ACC_X, F4_PeakToPeak_on_ACC_X, F5_ZeroCross_on_ACC_X, F6_PositiveZeroCross_on_ACC_X, F7_NegativeZeroCross_on_ACC_X, F8_PeaKDet_on_ACC_X, F9_PosPeaKDet_on_ACC_X, F10_NegPeaKDet_on_ACC_X, F11_MAX_on_ACC_X, F12_RECURSIVE_FEATURE_MEAN_on_ACC_X, F13_RECURSIVE_FEATURE_VAR_on_ACC_X, F14_RECURSIVE_FEATURE_RMS_on_ACC_X, F15_RECURSIVE_FEATURE_MAX_on_ACC_X, F16_RECURSIVE_FEATURE_MIN_on_ACC_X, F17_RECURSIVE_FEATURE_PKPK_on_ACC_X, 
+
+
+Mean absolute error	0.908335
+Root mean squared error	0.908492
+ ======= Whole data training with Confidence Factor: 0.9 ========= 
+
+
+===== Confusion Matrix =====
+         	12_to_18 	23_to_35 	5_to_10  	<-- classified as
+12_to_18 	3685	0	5	
+23_to_35 	0	1661	60	
+5_to_10  	103	342	1662	
+
+Total Number of Instances        : 7518
+Correctly Classified Instances   : 7008
+Incorrectly Classified Instances : 510
+Kappa Statistic: 0.372674
+Accuracy: 93.2163%
+
+Report  :	precision	recall	support	
+12_to_18 	0.999    	0.973	 3690
+23_to_35 	0.965    	0.829	 1721
+5_to_10  	0.789    	0.962	 2107
+
+avg/total	0.932    	0.937	 7518

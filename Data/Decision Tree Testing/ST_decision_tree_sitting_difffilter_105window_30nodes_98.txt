@@ -1,0 +1,40 @@
+F23_MAX_on_ACC_X <= 0.0802996: 12_to_18 (1892.0/74.0)
+F23_MAX_on_ACC_X > 0.0802996
+|   F4_VAR_on_filter_DIFF_on_A_X <= 0.00027862
+|   |   F1_MEAN_on_ACC_X <= 0.000181466: 12_to_18 (1.0)
+|   |   F1_MEAN_on_ACC_X > 0.000181466: 23_to_30 (862.0)
+|   F4_VAR_on_filter_DIFF_on_A_X > 0.00027862: 5_to_10 (981.0)
+
+Number of Leaves  : 	4
+Size of the tree : 	7
+
+
+class:
+ => 12_to_18, 23_to_30, 5_to_10, 
+features:
+ => F1_MEAN_on_ACC_X, F2_MEAN_on_filter_DIFF_on_A_X, F3_VAR_on_ACC_X, F4_VAR_on_filter_DIFF_on_A_X, F5_ENERGY_on_ACC_X, F6_ENERGY_on_filter_DIFF_on_A_X, F7_PeakToPeak_on_ACC_X, F8_PeakToPeak_on_filter_DIFF_on_A_X, F9_ZeroCross_on_ACC_X, F10_ZeroCross_on_filter_DIFF_on_A_X, F11_PositiveZeroCross_on_ACC_X, F12_PositiveZeroCross_on_filter_DIFF_on_A_X, F13_NegativeZeroCross_on_ACC_X, F14_NegativeZeroCross_on_filter_DIFF_on_A_X, F15_PeaKDet_on_ACC_X, F16_PeaKDet_on_filter_DIFF_on_A_X, F17_PosPeaKDet_on_ACC_X, F18_PosPeaKDet_on_filter_DIFF_on_A_X, F19_NegPeaKDet_on_ACC_X, F20_NegPeaKDet_on_filter_DIFF_on_A_X, F21_MIN_on_ACC_X, F22_MIN_on_filter_DIFF_on_A_X, F23_MAX_on_ACC_X, F24_MAX_on_filter_DIFF_on_A_X, F25_RECURSIVE_FEATURE_MEAN_on_ACC_X, F26_RECURSIVE_FEATURE_VAR_on_ACC_X, F27_RECURSIVE_FEATURE_RMS_on_ACC_X, F28_RECURSIVE_FEATURE_MEAN_on_filter_DIFF_on_A_X, F29_RECURSIVE_FEATURE_VAR_on_filter_DIFF_on_A_X, F30_RECURSIVE_FEATURE_RMS_on_filter_DIFF_on_A_X, F31_RECURSIVE_FEATURE_MAX_on_ACC_X, F32_RECURSIVE_FEATURE_MIN_on_ACC_X, F33_RECURSIVE_FEATURE_PKPK_on_ACC_X, F34_RECURSIVE_FEATURE_MAX_on_filter_DIFF_on_A_X, F35_RECURSIVE_FEATURE_MIN_on_filter_DIFF_on_A_X, F36_RECURSIVE_FEATURE_PKPK_on_filter_DIFF_on_A_X, 
+
+
+Mean absolute error	0.98237
+Root mean squared error	0.98238
+ ======= Whole data training with Confidence Factor: 0.9 ========= 
+
+
+===== Confusion Matrix =====
+         	12_to_18 	23_to_30 	5_to_10  	<-- classified as
+12_to_18 	1893	0	0	
+23_to_30 	0	862	0	
+5_to_10  	74	0	981	
+
+Total Number of Instances        : 3810
+Correctly Classified Instances   : 3736
+Incorrectly Classified Instances : 74
+Kappa Statistic: 0.378995
+Accuracy: 98.0577%
+
+Report  :	precision	recall	support	
+12_to_18 	1    	0.962	 1893
+23_to_30 	1    	1	 862
+5_to_10  	0.93    	1	 1055
+
+avg/total	0.981    	0.981	 3810

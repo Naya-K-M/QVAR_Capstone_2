@@ -1,0 +1,52 @@
+F23_MAX_on_ACC_X <= 0.128157
+|   F32_RECURSIVE_FEATURE_MIN_on_ACC_X <= -0.324862: 12_to_18 (2501.0)
+|   F32_RECURSIVE_FEATURE_MIN_on_ACC_X > -0.324862
+|   |   F4_VAR_on_filter_DIFF_on_A_X <= 0.000450642: 12_to_18 (1000.0/66.0)
+|   |   F4_VAR_on_filter_DIFF_on_A_X > 0.000450642
+|   |   |   F1_MEAN_on_ACC_X <= -0.108826: 12_to_18 (2.0)
+|   |   |   F1_MEAN_on_ACC_X > -0.108826: 5_to_10 (34.0)
+F23_MAX_on_ACC_X > 0.128157
+|   F7_PeakToPeak_on_ACC_X <= 0.112767
+|   |   F7_PeakToPeak_on_ACC_X <= 0.0960693
+|   |   |   F1_MEAN_on_ACC_X <= 0.247076
+|   |   |   |   F7_PeakToPeak_on_ACC_X <= 0.0799561
+|   |   |   |   |   F2_MEAN_on_filter_DIFF_on_A_X <= 7.67112e-005: 23_to_35 (2.0)
+|   |   |   |   |   F2_MEAN_on_filter_DIFF_on_A_X > 7.67112e-005: 5_to_10 (2.0)
+|   |   |   |   F7_PeakToPeak_on_ACC_X > 0.0799561: 5_to_10 (39.0)
+|   |   |   F1_MEAN_on_ACC_X > 0.247076: 23_to_35 (1340.0/235.0)
+|   |   F7_PeakToPeak_on_ACC_X > 0.0960693: 5_to_10 (408.0/345.0)
+|   F7_PeakToPeak_on_ACC_X > 0.112767: 5_to_10 (1314.0/37.0)
+
+Number of Leaves  : 	10
+Size of the tree : 	19
+
+
+class:
+ => 12_to_18, 23_to_35, 5_to_10, 
+features:
+ => F1_MEAN_on_ACC_X, F2_MEAN_on_filter_DIFF_on_A_X, F3_VAR_on_ACC_X, F4_VAR_on_filter_DIFF_on_A_X, F5_ENERGY_on_ACC_X, F6_ENERGY_on_filter_DIFF_on_A_X, F7_PeakToPeak_on_ACC_X, F8_PeakToPeak_on_filter_DIFF_on_A_X, F9_ZeroCross_on_ACC_X, F10_ZeroCross_on_filter_DIFF_on_A_X, F11_PositiveZeroCross_on_ACC_X, F12_PositiveZeroCross_on_filter_DIFF_on_A_X, F13_NegativeZeroCross_on_ACC_X, F14_NegativeZeroCross_on_filter_DIFF_on_A_X, F15_PeaKDet_on_ACC_X, F16_PeaKDet_on_filter_DIFF_on_A_X, F17_PosPeaKDet_on_ACC_X, F18_PosPeaKDet_on_filter_DIFF_on_A_X, F19_NegPeaKDet_on_ACC_X, F20_NegPeaKDet_on_filter_DIFF_on_A_X, F21_MIN_on_ACC_X, F22_MIN_on_filter_DIFF_on_A_X, F23_MAX_on_ACC_X, F24_MAX_on_filter_DIFF_on_A_X, F25_RECURSIVE_FEATURE_MEAN_on_ACC_X, F26_RECURSIVE_FEATURE_VAR_on_ACC_X, F27_RECURSIVE_FEATURE_RMS_on_ACC_X, F28_RECURSIVE_FEATURE_MEAN_on_filter_DIFF_on_A_X, F29_RECURSIVE_FEATURE_VAR_on_filter_DIFF_on_A_X, F30_RECURSIVE_FEATURE_RMS_on_filter_DIFF_on_A_X, F31_RECURSIVE_FEATURE_MAX_on_ACC_X, F32_RECURSIVE_FEATURE_MIN_on_ACC_X, F33_RECURSIVE_FEATURE_PKPK_on_ACC_X, F34_RECURSIVE_FEATURE_MAX_on_filter_DIFF_on_A_X, F35_RECURSIVE_FEATURE_MIN_on_filter_DIFF_on_A_X, F36_RECURSIVE_FEATURE_PKPK_on_filter_DIFF_on_A_X, 
+
+
+Mean absolute error	0.905182
+Root mean squared error	0.905223
+ ======= Whole data training with Confidence Factor: 0.9 ========= 
+
+
+===== Confusion Matrix =====
+         	12_to_18 	23_to_35 	5_to_10  	<-- classified as
+12_to_18 	3503	0	3	
+23_to_35 	0	1342	379	
+5_to_10  	66	235	1797	
+
+Total Number of Instances        : 7325
+Correctly Classified Instances   : 6642
+Incorrectly Classified Instances : 683
+Kappa Statistic: 0.368992
+Accuracy: 90.6758%
+
+Report  :	precision	recall	support	
+12_to_18 	0.999    	0.982	 3506
+23_to_35 	0.78    	0.851	 1721
+5_to_10  	0.857    	0.825	 2098
+
+avg/total	0.907    	0.906	 7325

@@ -1,0 +1,38 @@
+F23_MAX_on_ACC_X <= 0.09617: 12_to_18 (724.0/25.0)
+F23_MAX_on_ACC_X > 0.09617
+|   F4_VAR_on_filter_DIFF_on_A_X <= 0.00024735: 23_to_35 (330.0)
+|   F4_VAR_on_filter_DIFF_on_A_X > 0.00024735: 5_to_10 (378.0)
+
+Number of Leaves  : 	3
+Size of the tree : 	5
+
+
+class:
+ => 12_to_18, 23_to_35, 5_to_10, 
+features:
+ => F1_MEAN_on_ACC_X, F2_MEAN_on_filter_DIFF_on_A_X, F3_VAR_on_ACC_X, F4_VAR_on_filter_DIFF_on_A_X, F5_ENERGY_on_ACC_X, F6_ENERGY_on_filter_DIFF_on_A_X, F7_PeakToPeak_on_ACC_X, F8_PeakToPeak_on_filter_DIFF_on_A_X, F9_ZeroCross_on_ACC_X, F10_ZeroCross_on_filter_DIFF_on_A_X, F11_PositiveZeroCross_on_ACC_X, F12_PositiveZeroCross_on_filter_DIFF_on_A_X, F13_NegativeZeroCross_on_ACC_X, F14_NegativeZeroCross_on_filter_DIFF_on_A_X, F15_PeaKDet_on_ACC_X, F16_PeaKDet_on_filter_DIFF_on_A_X, F17_PosPeaKDet_on_ACC_X, F18_PosPeaKDet_on_filter_DIFF_on_A_X, F19_NegPeaKDet_on_ACC_X, F20_NegPeaKDet_on_filter_DIFF_on_A_X, F21_MIN_on_ACC_X, F22_MIN_on_filter_DIFF_on_A_X, F23_MAX_on_ACC_X, F24_MAX_on_filter_DIFF_on_A_X, F25_RECURSIVE_FEATURE_MEAN_on_ACC_X, F26_RECURSIVE_FEATURE_VAR_on_ACC_X, F27_RECURSIVE_FEATURE_RMS_on_ACC_X, F28_RECURSIVE_FEATURE_MEAN_on_filter_DIFF_on_A_X, F29_RECURSIVE_FEATURE_VAR_on_filter_DIFF_on_A_X, F30_RECURSIVE_FEATURE_RMS_on_filter_DIFF_on_A_X, F31_RECURSIVE_FEATURE_MAX_on_ACC_X, F32_RECURSIVE_FEATURE_MIN_on_ACC_X, F33_RECURSIVE_FEATURE_PKPK_on_ACC_X, F34_RECURSIVE_FEATURE_MAX_on_filter_DIFF_on_A_X, F35_RECURSIVE_FEATURE_MIN_on_filter_DIFF_on_A_X, F36_RECURSIVE_FEATURE_PKPK_on_filter_DIFF_on_A_X, 
+
+
+Mean absolute error	0.984536
+Root mean squared error	0.984544
+ ======= Whole data training with Confidence Factor: 0.9 ========= 
+
+
+===== Confusion Matrix =====
+         	12_to_18 	23_to_35 	5_to_10  	<-- classified as
+12_to_18 	724	0	0	
+23_to_35 	0	330	0	
+5_to_10  	25	0	378	
+
+Total Number of Instances        : 1457
+Correctly Classified Instances   : 1432
+Incorrectly Classified Instances : 25
+Kappa Statistic: 0.378505
+Accuracy: 98.2841%
+
+Report  :	precision	recall	support	
+12_to_18 	1    	0.967	 724
+23_to_35 	1    	1	 330
+5_to_10  	0.938    	1	 403
+
+avg/total	0.983    	0.983	 1457

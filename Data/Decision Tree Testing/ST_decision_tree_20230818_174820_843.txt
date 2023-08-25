@@ -1,0 +1,82 @@
+F12_MAX_on_ACC_X <= 0.111917
+|   F1_MEAN_on_ACC_X <= -0.320298: 12_to_18 (5235.0)
+|   F1_MEAN_on_ACC_X > -0.320298
+|   |   F2_VAR_on_ACC_X <= 0.000762907: 12_to_18 (2048.0/169.0)
+|   |   F2_VAR_on_ACC_X > 0.000762907
+|   |   |   F1_MEAN_on_ACC_X <= -0.100077
+|   |   |   |   F2_VAR_on_ACC_X <= 0.00112915: 12_to_18 (46.0)
+|   |   |   |   F2_VAR_on_ACC_X > 0.00112915
+|   |   |   |   |   F1_MEAN_on_ACC_X <= -0.126099: 12_to_18 (4.0)
+|   |   |   |   |   F1_MEAN_on_ACC_X > -0.126099: 5_to_10 (3.0)
+|   |   |   F1_MEAN_on_ACC_X > -0.100077
+|   |   |   |   F2_VAR_on_ACC_X <= 0.000897408
+|   |   |   |   |   F1_MEAN_on_ACC_X <= -0.0535889
+|   |   |   |   |   |   F5_ZeroCross_on_ACC_X <= 52: 12_to_18 (5.0)
+|   |   |   |   |   |   F5_ZeroCross_on_ACC_X > 52: 5_to_10 (1.0)
+|   |   |   |   |   F1_MEAN_on_ACC_X > -0.0535889
+|   |   |   |   |   |   F2_VAR_on_ACC_X <= 0.00087595: 5_to_10 (19.0)
+|   |   |   |   |   |   F2_VAR_on_ACC_X > 0.00087595: 12_to_18 (1.0)
+|   |   |   |   F2_VAR_on_ACC_X > 0.000897408: 5_to_10 (65.0)
+F12_MAX_on_ACC_X > 0.111917
+|   F11_MIN_on_ACC_X <= 0.176195: 5_to_10 (2233.0/22.0)
+|   F11_MIN_on_ACC_X > 0.176195
+|   |   F4_PeakToPeak_on_ACC_X <= 0.0960693: 23_to_35 (3314.0/1145.0)
+|   |   F4_PeakToPeak_on_ACC_X > 0.0960693
+|   |   |   F3_ENERGY_on_ACC_X <= 4.49167
+|   |   |   |   F2_VAR_on_ACC_X <= 6.10352e-005
+|   |   |   |   |   F11_MIN_on_ACC_X <= 0.223999
+|   |   |   |   |   |   F5_ZeroCross_on_ACC_X <= 44
+|   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.272949
+|   |   |   |   |   |   |   |   F15_RECURSIVE_FEATURE_RMS_on_ACC_X <= 0.251461
+|   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.262207
+|   |   |   |   |   |   |   |   |   |   F5_ZeroCross_on_ACC_X <= 28: 23_to_35 (2.0)
+|   |   |   |   |   |   |   |   |   |   F5_ZeroCross_on_ACC_X > 28
+|   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.253906
+|   |   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= 0.242676: 5_to_10 (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.242676: 23_to_35 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.253906: 5_to_10 (3.0)
+|   |   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.262207: 23_to_35 (11.0)
+|   |   |   |   |   |   |   |   F15_RECURSIVE_FEATURE_RMS_on_ACC_X > 0.251461: 5_to_10 (2.0)
+|   |   |   |   |   |   |   F1_MEAN_on_ACC_X > 0.272949
+|   |   |   |   |   |   |   |   F11_MIN_on_ACC_X <= 0.207886: 5_to_10 (14.0)
+|   |   |   |   |   |   |   |   F11_MIN_on_ACC_X > 0.207886
+|   |   |   |   |   |   |   |   |   F6_PositiveZeroCross_on_ACC_X <= 12: 23_to_35 (3.0)
+|   |   |   |   |   |   |   |   |   F6_PositiveZeroCross_on_ACC_X > 12: 5_to_10 (15.0/11.0)
+|   |   |   |   |   |   F5_ZeroCross_on_ACC_X > 44: 23_to_35 (54.0/17.0)
+|   |   |   |   |   F11_MIN_on_ACC_X > 0.223999: 23_to_35 (24.0)
+|   |   |   |   F2_VAR_on_ACC_X > 6.10352e-005: 5_to_10 (34.0/12.0)
+|   |   |   F3_ENERGY_on_ACC_X > 4.49167: 5_to_10 (680.0/179.0)
+
+Number of Leaves  : 	25
+Size of the tree : 	49
+
+
+class:
+ => 12_to_18, 23_to_35, 5_to_10, 
+features:
+ => F1_MEAN_on_ACC_X, F2_VAR_on_ACC_X, F3_ENERGY_on_ACC_X, F4_PeakToPeak_on_ACC_X, F5_ZeroCross_on_ACC_X, F6_PositiveZeroCross_on_ACC_X, F7_NegativeZeroCross_on_ACC_X, F8_PeaKDet_on_ACC_X, F9_PosPeaKDet_on_ACC_X, F10_NegPeaKDet_on_ACC_X, F11_MIN_on_ACC_X, F12_MAX_on_ACC_X, F13_RECURSIVE_FEATURE_MEAN_on_ACC_X, F14_RECURSIVE_FEATURE_VAR_on_ACC_X, F15_RECURSIVE_FEATURE_RMS_on_ACC_X, F16_RECURSIVE_FEATURE_MAX_on_ACC_X, F17_RECURSIVE_FEATURE_MIN_on_ACC_X, F18_RECURSIVE_FEATURE_PKPK_on_ACC_X, 
+
+
+Mean absolute error	0.894867
+Root mean squared error	0.894897
+ ======= Whole data training with Confidence Factor: 0.9 ========= 
+
+
+===== Confusion Matrix =====
+         	12_to_18 	23_to_35 	5_to_10  	<-- classified as
+12_to_18 	7339	0	19	
+23_to_35 	0	3410	205	
+5_to_10  	169	1162	3070	
+
+Total Number of Instances        : 15374
+Correctly Classified Instances   : 13819
+Incorrectly Classified Instances : 1555
+Kappa Statistic: 0.364988
+Accuracy: 89.8855%
+
+Report  :	precision	recall	support	
+12_to_18 	0.997    	0.977	 7358
+23_to_35 	0.943    	0.746	 3615
+5_to_10  	0.698    	0.932	 4401
+
+avg/total	0.899    	0.91	 15374

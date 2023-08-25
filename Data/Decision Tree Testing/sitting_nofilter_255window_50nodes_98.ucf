@@ -1,0 +1,213 @@
+-- Machine Learning Core Tool v9.15.6.0_BETA, LIS2DUXS12
+-- <MLC1_SRC>DT1,2='5_to_10',4='12_to_18',8='23_to_35'
+
+-- F1_MEAN_on_ACC_X -> 0162h
+-- F2_VAR_on_ACC_X -> 0164h
+-- F3_ENERGY_on_ACC_X -> 0166h
+-- F4_ZeroCross_on_ACC_X -> 0168h
+-- F5_PositiveZeroCross_on_ACC_X -> 016Ah
+-- F6_NegativeZeroCross_on_ACC_X -> 016Ch
+-- F7_PeaKDet_on_ACC_X -> 016Eh
+-- F8_PosPeaKDet_on_ACC_X -> 0170h
+-- F9_NegPeaKDet_on_ACC_X -> 0172h
+-- F10_MIN_on_ACC_X -> 0174h
+-- F11_MAX_on_ACC_X -> 0176h
+-- F12_RECURSIVE_FEATURE_MEAN_on_ACC_X -> 0178h
+-- F13_RECURSIVE_FEATURE_VAR_on_ACC_X -> 017Ah
+-- F14_RECURSIVE_FEATURE_RMS_on_ACC_X -> 017Ch
+-- F15_RECURSIVE_FEATURE_MAX_on_ACC_X -> 017Eh
+-- F16_RECURSIVE_FEATURE_MIN_on_ACC_X -> 0180h
+-- F17_RECURSIVE_FEATURE_PKPK_on_ACC_X -> 0182h
+
+Ac 13 10
+WAIT 5
+Ac 14 00
+Ac 3F 80
+Ac 04 00
+Ac 05 00
+Ac 17 40
+Ac 02 01
+Ac 08 B8
+Ac 09 58
+Ac 09 01
+Ac 09 62
+Ac 09 01
+Ac 09 00
+Ac 09 00
+Ac 09 0A
+Ac 09 01
+Ac 09 FF
+Ac 02 01
+Ac 08 C8
+Ac 09 DC
+Ac 09 00
+Ac 09 84
+Ac 09 01
+Ac 09 90
+Ac 09 01
+Ac 02 01
+Ac 08 DC
+Ac 09 3F
+Ac 09 00
+Ac 09 00
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 01
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 02
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 04
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 06
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 02 11
+Ac 08 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 08
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 0A
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 0C
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 0E
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 10
+Ac 09 04
+Ac 09 00
+Ac 09 FC
+Ac 09 00
+Ac 09 7C
+Ac 09 11
+Ac 09 04
+Ac 09 00
+Ac 09 FC
+Ac 09 00
+Ac 09 7C
+Ac 09 17
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 3C
+Ac 09 00
+Ac 09 34
+Ac 09 00
+Ac 09 3A
+Ac 09 18
+Ac 09 04
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 EC
+Ac 09 3B
+Ac 09 1F
+Ac 09 00
+Ac 02 11
+Ac 08 84
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 09 00
+Ac 3F 00
+Ac 3F 80
+Ac 17 40
+Ac 02 11
+Ac 08 90
+Ac 09 29
+Ac 09 2E
+Ac 09 14
+Ac 09 CA
+Ac 09 18
+Ac 09 AC
+Ac 09 82
+Ac 09 E9
+Ac 3F 80
+Ac 17 00
+Ac 04 00
+Ac 05 10
+Ac 02 01
+Ac 3F 00
+Ac 1F 01
+Ac 3F 80
+Ac 0D 01
+Ac 3A 31
+Ac 3F 00
+Ac 14 90

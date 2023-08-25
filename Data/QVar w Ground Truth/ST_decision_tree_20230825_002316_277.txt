@@ -1,0 +1,96 @@
+F1_MEAN_on_ACC_X <= 0.0266154
+|   F5_ENERGY_on_ACC_X <= 14.3733
+|   |   F21_MIN_on_ACC_X <= -0.23999
+|   |   |   F11_PositiveZeroCross_on_ACC_X <= 122
+|   |   |   |   F5_ENERGY_on_ACC_X <= 4.02734
+|   |   |   |   |   F1_MEAN_on_ACC_X <= -0.0947876: 31_to_35 (16.0)
+|   |   |   |   |   F1_MEAN_on_ACC_X > -0.0947876: 11_to_15 (5.0)
+|   |   |   |   F5_ENERGY_on_ACC_X > 4.02734
+|   |   |   |   |   F15_PeaKDet_on_ACC_X <= 172: 6_to_10 (72.0)
+|   |   |   |   |   F15_PeaKDet_on_ACC_X > 172
+|   |   |   |   |   |   F30_RECURSIVE_FEATURE_RMS_on_filter_DIFF_on_A_X <= 0.0714427: 31_to_35 (4.0)
+|   |   |   |   |   |   F30_RECURSIVE_FEATURE_RMS_on_filter_DIFF_on_A_X > 0.0714427: 6_to_10 (4.0)
+|   |   |   F11_PositiveZeroCross_on_ACC_X > 122
+|   |   |   |   F5_ENERGY_on_ACC_X <= 11.3211: 31_to_35 (212.0)
+|   |   |   |   F5_ENERGY_on_ACC_X > 11.3211
+|   |   |   |   |   F9_ZeroCross_on_ACC_X <= 290
+|   |   |   |   |   |   F9_ZeroCross_on_ACC_X <= 270: 6_to_10 (10.0)
+|   |   |   |   |   |   F9_ZeroCross_on_ACC_X > 270: 26_to_30 (5.0)
+|   |   |   |   |   F9_ZeroCross_on_ACC_X > 290
+|   |   |   |   |   |   F1_MEAN_on_ACC_X <= -0.0540771: 26_to_30 (2.0)
+|   |   |   |   |   |   F1_MEAN_on_ACC_X > -0.0540771
+|   |   |   |   |   |   |   F3_VAR_on_ACC_X <= 0.0523987: 31_to_35 (48.0)
+|   |   |   |   |   |   |   F3_VAR_on_ACC_X > 0.0523987: 26_to_30 (1.0)
+|   |   F21_MIN_on_ACC_X > -0.23999
+|   |   |   F5_ENERGY_on_ACC_X <= 1.29923
+|   |   |   |   F23_MAX_on_ACC_X <= 0.0479736: 31_to_35 (275.0/50.0)
+|   |   |   |   F23_MAX_on_ACC_X > 0.0479736
+|   |   |   |   |   F1_MEAN_on_ACC_X <= -0.0471497
+|   |   |   |   |   |   F3_VAR_on_ACC_X <= 0.0013752: 36_to_40 (2.0)
+|   |   |   |   |   |   F3_VAR_on_ACC_X > 0.0013752: 41_to_45 (22.0)
+|   |   |   |   |   F1_MEAN_on_ACC_X > -0.0471497
+|   |   |   |   |   |   F9_ZeroCross_on_ACC_X <= 210
+|   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= -0.0114517
+|   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X <= -0.0446167: 41_to_45 (3.0)
+|   |   |   |   |   |   |   |   F1_MEAN_on_ACC_X > -0.0446167: 6_to_10 (1.0)
+|   |   |   |   |   |   |   F1_MEAN_on_ACC_X > -0.0114517: 11_to_15 (8.0)
+|   |   |   |   |   |   F9_ZeroCross_on_ACC_X > 210: 31_to_35 (12.0)
+|   |   |   F5_ENERGY_on_ACC_X > 1.29923: 41_to_45 (284.0/31.0)
+|   F5_ENERGY_on_ACC_X > 14.3733
+|   |   F16_PeaKDet_on_filter_DIFF_on_A_X <= 196
+|   |   |   F1_MEAN_on_ACC_X <= -12.96: 11_to_15 (1.0)
+|   |   |   F1_MEAN_on_ACC_X > -12.96: 6_to_10 (489.0)
+|   |   F16_PeaKDet_on_filter_DIFF_on_A_X > 196
+|   |   |   F4_VAR_on_filter_DIFF_on_A_X <= 0.0325623
+|   |   |   |   F1_MEAN_on_ACC_X <= -0.0827026: 6_to_10 (1.0)
+|   |   |   |   F1_MEAN_on_ACC_X > -0.0827026
+|   |   |   |   |   F1_MEAN_on_ACC_X <= -0.0745239: 26_to_30 (1.0)
+|   |   |   |   |   F1_MEAN_on_ACC_X > -0.0745239: 11_to_15 (1.0)
+|   |   |   F4_VAR_on_filter_DIFF_on_A_X > 0.0325623: 31_to_35 (3.0)
+F1_MEAN_on_ACC_X > 0.0266154
+|   F22_MIN_on_filter_DIFF_on_A_X <= -0.376022: 6_to_10 (761.0/575.0)
+|   F22_MIN_on_filter_DIFF_on_A_X > -0.376022: 11_to_15 (1262.0/47.0)
+
+Number of Leaves  : 	27
+Size of the tree : 	53
+
+
+class:
+ => 6_to_10, 11_to_15, 16_to_20, 21_to_25, 26_to_30, 31_to_35, 36_to_40, 41_to_45, 
+features:
+ => F1_MEAN_on_ACC_X, F2_MEAN_on_filter_DIFF_on_A_X, F3_VAR_on_ACC_X, F4_VAR_on_filter_DIFF_on_A_X, F5_ENERGY_on_ACC_X, F6_ENERGY_on_filter_DIFF_on_A_X, F7_PeakToPeak_on_ACC_X, F8_PeakToPeak_on_filter_DIFF_on_A_X, F9_ZeroCross_on_ACC_X, F10_ZeroCross_on_filter_DIFF_on_A_X, F11_PositiveZeroCross_on_ACC_X, F12_PositiveZeroCross_on_filter_DIFF_on_A_X, F13_NegativeZeroCross_on_ACC_X, F14_NegativeZeroCross_on_filter_DIFF_on_A_X, F15_PeaKDet_on_ACC_X, F16_PeaKDet_on_filter_DIFF_on_A_X, F17_PosPeaKDet_on_ACC_X, F18_PosPeaKDet_on_filter_DIFF_on_A_X, F19_NegPeaKDet_on_ACC_X, F20_NegPeaKDet_on_filter_DIFF_on_A_X, F21_MIN_on_ACC_X, F22_MIN_on_filter_DIFF_on_A_X, F23_MAX_on_ACC_X, F24_MAX_on_filter_DIFF_on_A_X, F25_RECURSIVE_FEATURE_MEAN_on_ACC_X, F26_RECURSIVE_FEATURE_VAR_on_ACC_X, F27_RECURSIVE_FEATURE_RMS_on_ACC_X, F28_RECURSIVE_FEATURE_MEAN_on_filter_DIFF_on_A_X, F29_RECURSIVE_FEATURE_VAR_on_filter_DIFF_on_A_X, F30_RECURSIVE_FEATURE_RMS_on_filter_DIFF_on_A_X, F31_RECURSIVE_FEATURE_MAX_on_ACC_X, F32_RECURSIVE_FEATURE_MIN_on_ACC_X, F33_RECURSIVE_FEATURE_PKPK_on_ACC_X, F34_RECURSIVE_FEATURE_MAX_on_filter_DIFF_on_A_X, F35_RECURSIVE_FEATURE_MIN_on_filter_DIFF_on_A_X, F36_RECURSIVE_FEATURE_PKPK_on_filter_DIFF_on_A_X, 
+
+
+Mean absolute error	0.832205
+Root mean squared error	0.833017
+ ======= Whole data training with Confidence Factor: 0.9 ========= 
+
+
+===== Confusion Matrix =====
+         	6_to_10  	11_to_15 	16_to_20 	21_to_25 	26_to_30 	31_to_35 	36_to_40 	41_to_45 	<-- classified as
+6_to_10  	1338	25	0	0	0	0	0	4	
+11_to_15 	508	1277	0	0	0	0	0	0	
+16_to_20 	44	22	0	0	0	0	0	0	
+21_to_25 	0	0	0	0	0	0	0	0	
+26_to_30 	13	0	0	0	9	0	0	0	
+31_to_35 	10	0	0	0	0	570	0	16	
+36_to_40 	0	0	0	0	0	30	2	11	
+41_to_45 	0	0	0	0	0	20	0	309	
+
+Total Number of Instances        : 4208
+Correctly Classified Instances   : 3505
+Incorrectly Classified Instances : 703
+Kappa Statistic: 0.308352
+Accuracy: 83.2937%
+
+Report  :	precision	recall	support	
+6_to_10  	0.979    	0.699	 1367
+11_to_15 	0.715    	0.965	 1785
+16_to_20 	0    	nan	 66
+21_to_25 	nan    	nan	 0
+26_to_30 	0.409    	1	 22
+31_to_35 	0.956    	0.919	 596
+36_to_40 	0.0465    	1	 43
+41_to_45 	0.939    	0.909	 329
+
+avg/total	0.833    	nan	 4208
